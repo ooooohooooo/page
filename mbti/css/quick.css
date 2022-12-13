@@ -1,0 +1,36 @@
+#quick {
+    position: fixed;
+    width: 60px;
+    right: 0;
+    top: 23%;
+    z-index: 9999;
+}
+
+#quick > a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(61,61,61,.4);
+    margin-bottom: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+#quick > a:before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    transition:.5s all
+}
+
+#quick > a:hover:before,
+#quick > a.on:before{
+    transform: scale(1.5);
+    transform-origin: center center;
+    background-color: rgba(137, 198, 180, .8);
+}

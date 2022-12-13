@@ -1,0 +1,76 @@
+@media screen and (min-width:1300px) {
+    
+    
+    #con > section:first-child{
+        height: 820px
+    }   
+    #con > section:nth-child(2){
+        height: 1300px;
+    }
+    #con > section:nth-child(3){
+        height: 850px;
+    }
+    #con > section:nth-child(4){
+        height: 550px;
+    }
+    #con > section:nth-child(5){
+        height: 750px;
+    }
+    #con > section:last-child{
+        height: 1000px;
+    }
+    
+    
+    
+    div#mbti div#mbtiCircle{
+        width: 10%;
+    }
+    div#mbti div#threeWrap{
+        top: -235px;
+    }
+    div#mbti div.mbtiWrap p{
+        font-size: 15px;
+        margin: 20% 10%;
+    }
+    div#mbti div.mbtiWrap:last-child p{
+        margin:17% 0 0 0;
+    }
+    
+    div#history div#hisText p{
+        font-size: 14px
+    }
+    
+    
+    div#helping span#helpText{
+        background-size: 22%;
+    }
+    
+    div#helping div#ScheduleWrap span#hr{
+        margin-top: 5.5%;
+    }
+    
+    
+    
+    footer div#gray div#add ul li a{
+        font-size: 12px
+    }
+    
+    footer div#gray div#add p{
+        font-size: 14px
+    }
+    
+    footer div#gray{
+        width: 80%;
+    }
+    
+    footer div#gray div#add{
+        width: 30%;
+        margin: 5% 0% 0% 4%;   
+    }
+    footer div#gray div#add ul{
+        width: 56%;
+    }
+    footer div#gray div#contact{
+        margin: 10% 0 0 5%;
+    }
+}

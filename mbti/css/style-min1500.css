@@ -1,0 +1,72 @@
+@media screen and (min-width:1500px) {
+    
+    #con > section:first-child{
+        height: 900px
+    }   
+    #con > section:nth-child(2){
+        height: 1500px;
+    }
+    #con > section:nth-child(3){
+        height: 1000px;
+    }
+    #con > section:nth-child(4){
+        height: 650px;
+    }
+    #con > section:nth-child(5){
+        height: 900px;
+    }
+    #con > section:last-child{
+        height: 1300px;
+    }
+    
+    
+    
+    
+   
+    div#mbti div#threeWrap{
+        top: -270px;
+    }
+    
+    div#mbti div.mbtiWrap p{
+        font-size: 16px
+    }
+    div#mbti div#findWrap span#find{
+        font-size:20px
+    }
+    div#mbti div#findWrap div#line img:first-child{
+        width: 85%;
+        margin-left: 8%;
+    }
+    div#history div#hisText{
+        top: -390px;
+    }
+    
+    div#history div#hisText p{
+        font-size: 16px
+    }
+    
+    div#helping h2{
+        margin-bottom: 10%;
+    }
+    div#helping div#ScheduleWrap span#hr{
+        margin-top: 5%;
+    }
+    
+    div#helping h1{
+        margin: 5%
+    }
+    
+    div#helping span#helpText{
+        background-size: 19%;
+    }
+    
+    div#helping p{
+        font-size: 16px;
+    }
+    .container h1{
+        font-size: 20px
+    }
+     .timeline--horizontal .timeline-divider{
+        width: 99.5%;
+    }
+}

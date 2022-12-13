@@ -1,0 +1,756 @@
+@import url(quick.css);
+@import url(cont.css);
+
+div#quick {
+    display: none;
+}
+
+section h6{
+    display: none;
+}
+
+
+
+/*header_css*/
+section:first-child {
+    background-color: #000;
+}
+
+header {
+    overflow: hidden;
+    background-color:rgba(61, 61, 61, .45);
+    z-index: 999;
+    width: 100%;
+    position: fixed
+}
+
+header h1 {
+    float: left;
+    width: 19%;
+    margin: 2% 3%;
+}
+
+header h1 a img {
+    width: 65%;
+}
+
+header div#webNav {
+    display: none;
+}
+
+header nav {
+    float: left;
+    width: 48%;
+    text-align: center;
+    position: relative;
+    cursor: pointer
+}
+
+header nav div#spanWrap {
+    position: absolute;
+    top: 8px;
+    left: 35%;
+    padding: 10%
+}
+
+header nav span {
+    display: block;
+    width: 22px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20%;
+
+}
+
+header nav span {}
+
+header nav ul {
+    margin-top: 35%;
+}
+
+header nav ul li {}
+
+header nav ul li a {
+    padding: 5% 0;
+    color: #fff;
+    display: block;
+}
+
+header nav ul li:hover a {
+    background-color: rgba(0, 0, 0, .8)
+}
+
+header div#login {
+    float: right;
+    margin: 5% 2%
+}
+
+header div#login a {
+    color: #fff;
+    font-size: 15px
+}
+
+
+/*section_css*/
+section > section {
+    position: relative;
+    background-color: #000;
+    height: 120vw;
+    padding-top: 30%;
+    background-color: #000;
+}
+
+section > section img {
+    width: 100%;
+}
+
+section > section div#textWrap {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 15%;
+}
+
+section > section div#textWrap div.mainText span.line {
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 1%;
+
+}
+
+
+
+@keyframes line1 {
+    0% {}
+
+    50% {}
+
+}
+
+
+section > section div#textWrap div.mainText:first-child span.line {
+    animation: line1 1.7s reverse
+}
+
+section > section div#textWrap div.mainText:last-child {
+    float: right;
+}
+
+section > section div#textWrap div.mainText:last-child span.line {
+    animation: line2 1.7s reverse
+}
+
+section > section div#ani {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 9
+}
+
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+
+/*mbti_css*/
+div#mbti {
+    position: relative;
+    /*height: 170vw;*/
+    text-align: center;
+}
+
+div#mbti div#mbtiCircle {
+    position: relative;
+    display: inline-block;
+    z-index: 555;
+    width: 25%;
+    top: 55px;
+}
+
+div#mbti div#mbtiCircle img:first-child {
+    animation: miniCircle 1.7s infinite;
+    width: 100%;
+}
+
+@keyframes miniCircle {
+    0% {
+        transform: scale(1.1)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.1)
+    }
+}
+
+div#mbti div#mbtiCircle img:last-child {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+div#mbti div#mbtiBack {
+    position: relative;
+    top: 24px
+}
+
+
+
+div#mbti div#mbtiBack img {
+    width: 100%;
+}
+
+div#mbti div.mbtiWrap {
+    border: 1px solid rgb(90, 96, 156);
+    overflow: hidden;
+    width: 70%;
+    padding: 2% 3%;
+    transition: all .5s ease;
+    margin: auto
+}
+
+div#mbti div.mbtiWrap img {
+    float: left;
+    width: 40%;
+    margin: 5% 5%;
+}
+
+div#mbti div.mbtiWrap:last-child {
+    top: 85%;
+}
+
+div#mbti div.mbtiWrap:last-child img {
+    width: 35%;
+    padding: 8% 0
+}
+
+div#mbti div.mbtiWrap p {
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    float: right;
+}
+div#mbti div.firstMbti p{
+    margin: 22% 10%;
+}
+div#mbti div.mbtiWrap:last-child p {
+    margin-top: 20%
+}
+div#mbti div#threeWrap{
+        position: relative;
+        z-index: 999;
+        overflow: hidden;
+}
+div#mbti div#findWrap{
+    margin:10% auto
+}
+
+
+div#mbti div#findWrap div#line > span {
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: rgb(90, 96, 156);
+}
+
+div#mbti div#findWrap div#line img:first-child {
+    display: none;
+}
+div#mbti div#findWrap div#line img:last-child{
+    width: 20%;
+}
+
+div#mbti div#findWrap span#find {
+    text-align: center;
+    color: rgb(90, 96, 156);
+   
+}
+
+
+
+/*history_css*/
+div#history {
+    background-image: url(../img/history_back.png);
+    padding-top: 8%;
+    margin-top: 4%;
+    position: relative;
+    top: 25px;
+}
+
+div#history h3 {
+    background-color: rgb(137, 198, 180);
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    box-shadow: 8px 8px 0px #ccc;
+}
+
+div#history div#imgWrap {
+    margin-top: 10%;
+    margin-left: 6%;
+    transition: all .5s ease;
+}
+
+div#history div#imgWrap img:first-child {
+    float: left;
+    width: 49%;
+}
+div#history div#imgWrap img:last-child {
+    float: right;
+    width: 49%;
+}
+
+div#history div#hisText{
+    clear: both;
+    padding-bottom: 25%
+}
+
+div#history div#hisText p {
+    width: 90%;
+    margin:auto;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    transition: all .5s ease;
+    padding-top: 5%
+}
+
+div#history div#hisText p span.blue {
+    color: rgb(90, 96, 156)
+}
+
+div#history div#hisText p:last-child {
+    display: none;
+}
+
+
+div#history div#circle {
+    display: none;
+}
+
+
+/*preference_css*/
+div#prefer {
+    background-image: url(../img/preferBack.jpg);
+    background-repeat: no-repeat;
+    height: 190vw;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+div#prefer h3 {
+    text-align: center;
+    padding-top: 10%
+}
+
+div#prefer div.wrap70 {
+    width: 70%;
+    margin: auto;
+    font-size: 73px;
+    position: relative;
+    overflow: hidden;
+     margin-top:5%
+}
+
+div#prefer div.wrap70 div.width10 {
+    background-color: rgba(255, 255, 255, .45);
+    width: 32%;
+    margin: 0 5% 15% 5%;
+    padding: 2% 4%;
+    text-align: center;
+    cursor: pointer
+}
+
+div#prefer div.wrap70 div.width10:hover {
+    background-color: rgba(61, 61, 61, .6);
+}
+
+div#prefer div.wrap70 div.color {
+    background-color: rgba(137, 198, 180, .45)
+}
+
+div#prefer div.wrap70 div.width10:first-child,
+div#prefer div.wrap70 div.width80 {
+    float: left;
+}
+div#prefer div.wrap70 div.width10:last-child{
+    float: right;
+}
+div#prefer div.wrap70 div.width80span {
+    display: none;
+}
+
+
+/*test_css*/
+div#test {
+    padding-bottom: 15%
+}
+
+div#test h3 {
+    text-align: center;
+    margin: 10% auto;
+    background-color: rgb(137, 198, 180);
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    box-shadow: 8px 8px 0px #ccc;
+}
+
+div#test table {
+    margin: auto;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+div#test table tr th,
+div#test table tr td {
+    display: block;
+    padding-bottom: 13%;
+    color: rgba(61, 61, 61)
+}
+
+div#test table tr td img {
+    width: 65%;
+}
+
+div#test table:last-child tr td img {
+    width: 45%;
+}
+
+div#test table tr td a {
+    display: block;
+    color: rgb(90, 96, 156);
+    border: 1px solid rgb(90, 96, 156);
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    transition: .3s;
+    margin: auto
+}
+
+div#test table tr td:hover a {
+    box-shadow: inset 0px 0px 0px 5px rgba(90, 96, 156, .8);
+}
+
+
+
+/*helping_css*/
+div#helping {
+    text-align: center;
+    background-image: url(../img/helping_back.png);
+    background-size: cover;
+    height: 1050px;
+    overflow: hidden;
+
+}
+
+div#helping span {
+    display: block;
+}
+
+div#helping span#helpText {
+    padding: 10%;
+    color: rgb(90, 96, 156);
+    font-size: 18px;
+    background-image: url(../img/helpingline.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position:47% 50%;
+    transition: all .5s ease;
+}
+
+div#helping p {
+    display: none;
+}
+
+div#helping section.page-section {
+    display: none;
+}
+
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 1px;
+    margin: 0 auto;
+    padding-top: 65px;
+    background: rgb(90, 96, 156);
+}
+
+.timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 80px;
+
+}
+
+.timeline ul li:nth-child(odd) div {
+    left: 32px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+    left: -120px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #F45B69;
+}
+
+time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+    transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+    background: rgb(90, 96, 156);
+}
+
+.timeline ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    top: 13px;
+    color: rgb(90, 96, 156)
+}
+
+.timeline ul li div time {
+    position: absolute;
+    left: -158%;
+    top: 23%;
+}
+
+.timeline ul li div time.right {
+    left: 214%;
+}
+
+.timeline ul li:nth-child(odd) div {
+    transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+    transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+/*book_css*/
+div#book {}
+
+div#book div#bookText {
+    text-align: center;
+    color: rgb(61, 61, 61);
+    margin: 10% 0
+}
+
+
+div#book figure {
+    width: 70%;
+    margin: auto;
+    transition: all .5s ease;
+    cursor: pointer
+}
+
+div#book figure img {
+    width: 100%;
+
+}
+
+div#book figure figcaption {
+    color: rgb(61, 61, 61);
+    margin-bottom: 18%;
+    text-align: center;
+    font-size: 14px
+}
+
+
+/*footer_css*/
+footer {
+    background-color: rgb(61, 61, 61);
+    padding-bottom: 15%;
+}
+
+footer div#blue {
+    background-color: rgb(90, 96, 156);
+}
+
+footer div#blue div#searchWrap {
+    margin: auto;
+    padding: 2%;
+}
+
+.search {
+    width: 220px;
+    height: 32px;
+    background: #444;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    margin: auto
+}
+
+.search input {
+    width: 100px;
+    padding: 10px 5px;
+    float: left;
+    color: #fff;
+    border: 0;
+    background: transparent;
+    border-radius: 3px 0 0 3px;
+}
+
+.search input:focus {
+    outline: 0;
+    background: transparent;
+}
+
+.search button {
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 33px;
+    width: 54px;
+    color: #fff;
+    background: transparent;
+    border-left: 1px solid #fff;
+    border-radius: 0 3px 3px 0;
+}
+
+.search button:hover {
+    background: #fff;
+    color: #444;
+}
+
+.search button:active {
+    box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+.search button:focus {
+    outline: 0;
+}
+
+
+footer div#gray {
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer div#gray h2 {
+    width: 30%;
+    margin: 6% auto
+}
+
+footer div#gray h2 img {
+    width: 100%;
+}
+
+footer div#gray div#add {
+    display: none;
+}
+
+footer div#gray p{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    width: 45%;
+    float: left;
+    margin-left: 5%
+}
+
+footer div#gray p span#contact {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5%;
+}
+
+footer div#gray div#sns {
+    text-align: center;
+    float: right;
+}
+
+footer div#gray div#sns ul {
+    overflow: hidden;
+    margin-top: 11%
+}
+
+footer div#gray div#sns ul li {
+    float: left;
+    margin-right: 3%;
+    width: 30%;
+}
+
+footer div#gray div#sns ul li img {
+    width: 90%;
+}

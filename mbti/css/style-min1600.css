@@ -1,0 +1,54 @@
+@media screen and (min-width:1600px) {
+    
+    
+    #con > section:first-child{
+        height: 1100px
+    }   
+    #con > section:nth-child(2){
+        height: 1700px;
+    }
+    #con > section:nth-child(3){
+        height: 1100px;
+    }
+    #con > section:nth-child(4){
+        height: 700px;
+    }
+    #con > section:nth-child(5){
+        height: 1000px;
+    }
+    #con > section:last-child{
+        height: 1300px;
+    }
+    
+    
+    
+  
+    div#mbti div#threeWrap{
+       top: -300px; 
+    }
+    
+    div#helping span#helpText{
+        background-size: 18%;
+    }
+    
+    
+     div#mbti div.mbtiWrap p{
+        font-size: 16px
+    }
+    div#mbti div#findWrap div#line img:first-child {
+        width: 95%;
+        margin-left: 0
+    }
+    div#prefer div.wrap70 div.width10{
+        width: 8%;
+        padding: 2%;
+        font-size: 80px;
+    }
+    footer div#gray div#add{
+        margin-top: 7%
+    }
+    footer div#gray div#sns ul li img {
+        width: 70%;
+    }
+    
+}

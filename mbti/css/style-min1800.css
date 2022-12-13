@@ -1,0 +1,76 @@
+@media screen and (min-width:1800px) {
+    
+    #con > section:first-child{
+        height: 1150px
+    }   
+    #con > section:nth-child(2){
+        height: 1800px;
+    }
+    #con > section:nth-child(3){
+        height: 1200px;
+    }
+    #con > section:nth-child(4){
+        height: 750px;
+    }
+    #con > section:nth-child(5){
+        height: 1000px;
+    }
+    #con > section:last-child{
+        height: 1500px;
+    }
+    
+    
+    
+   
+    
+    div#mbti div.mbtiWrap{
+        width: 20%;
+    }
+    
+     div#mbti div.mbtiWrap p{
+        font-size: 17px
+    }
+    div#mbti div#findWrap span#find{
+        position: relative;
+        left: 50px;
+    }
+    
+    div#mbti div#findWrap div#line img:first-child {
+        margin-left: 17%;
+        width: 90%;
+    }
+    
+    
+    div#history div#hisText {
+    top: -450px;
+    }
+    div#helping h1{
+        margin: 7%
+    }
+   
+    div#helping div#ScheduleWrap span#hr{
+        margin-top: 4.5%;
+    }
+    
+    div#helping span#helpText{
+        background-size: 16%;
+        background-position: 49.7% 50%;
+    }
+    
+    footer{
+        
+    }
+    
+    footer div#gray h2 img {
+        width: 75%;
+    }
+    
+    footer div#gray div#add ul li{
+        width: 32%;
+    }
+    footer div#gray div#sns ul li img {
+    width: 60%;
+    }
+    
+    
+}
