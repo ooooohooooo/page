@@ -1,0 +1,500 @@
+@import url(scrollBtn.css);
+@import url(slider.css);
+
+body {
+    background-color: #000;
+}
+
+/*gnb_css*/
+div#gnb,
+footer {
+    background-color: #1e285b;
+}
+
+/*#b1a59a*/
+div#gnb {
+    padding-bottom: 4px;
+}
+
+div#gnb div.wrap90 {}
+
+div#gnb div.wrap90 ul {
+    float: right;
+}
+
+div#gnb div.wrap90 ul li {
+    float: left;
+}
+
+div#gnb div.wrap90 ul li:after {
+    content: "|";
+    color: #b2a69b;
+    line-height: 10px;
+    font-size: 12px;
+}
+
+div#gnb div.wrap90 ul li:last-child:after {
+    display: none;
+}
+
+div#gnb div.wrap90 ul li a {
+    color: #b2a69b;
+    font-size: 12px;
+    padding: 0 10px
+}
+
+/*header_css*/
+header {
+    position: relative;
+    z-index: 555;
+}
+
+header h1 {
+    float: left;
+    width: 7%;
+}
+
+header h1 a {
+    display: block;
+    padding-top: 12px
+}
+
+header h1 a img {
+    width: 100%;
+}
+
+nav {
+    float: left;
+    width: 85%;
+}
+
+nav > ul {
+    text-align: center;
+}
+
+nav > ul > li {
+    display: inline-block;
+    width: 16%;
+    position: relative;
+}
+
+nav > ul > li > a {
+    color: #b2a69b;
+    font-weight: bold;
+    display: block;
+    padding: 30px 0;
+    font-size: 14px
+}
+
+nav ul li ul {
+    background-color: #1e285b;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 78px;
+}
+
+nav ul li ul li a {
+    color: #b2a69b;
+    font-size: 12px;
+    display: block;
+    padding: 15px 0
+}
+
+nav ul li ul li:hover {
+    background-color: #251f1d;
+    
+}
+nav ul li ul li:hover a{
+    color: #fff
+}
+/*section_css*/
+section {
+    clear: both;
+    width: 100%;
+    height: 45vw;
+}
+
+section h2 {
+    display: none;
+}
+
+section ul {}
+
+section ul li {}
+
+section ul li img {
+    width: 100%;
+}
+
+/*article_css*/
+article.wrap90 {
+    margin-bottom: 3%
+}
+
+article h2,
+div#news h2,
+div#popup h2,
+div#contents h2{
+    color: #b2a69b;
+    width: 35%;
+    margin:4% auto;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+article h2 + span.hr,
+div#news h2 + span.hr,
+div#popup h2 + span.hr {
+    margin-bottom:5%
+}
+
+article div.wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+article div.wrap figure {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+article div.wrap figure:nth-child(2) {
+    margin: 0 10px
+}
+
+article div.wrap figure img {
+    width: 100%;
+    height: 100%;
+}
+
+article div.wrap figure img + figcaption {
+    color: #fff;
+    text-align: center;
+}
+
+article div.wrap figure figcaption {
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    height: 100%;
+    font-size: 18px
+}
+
+article div.wrap figure figcaption p {
+    width: 80%;
+    margin: 20px auto;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+article div.wrap figure:first-child figcaption {
+    background-color: rgba(58, 47, 43, .8)
+}
+
+article div.wrap figure:nth-child(2) figcaption {
+    background-color: rgba(58, 47, 43, .8)
+}
+
+article div.wrap figure:last-child figcaption {
+    background-color: rgba(58, 47, 43, .8)
+}
+
+/*news_css*/
+div#news {
+    margin-bottom: 3%
+}
+
+span.hr{width:35%; display: block; margin: auto}
+span.hr img{
+    width: 100%;
+    margin-top: 20%
+}
+div#news div.fl,
+div#news div.fr {
+    width: 49%;
+    height: 30vw;
+    border: 1px solid #b2a69b;
+}
+
+div#news div.fl > ul {
+    border-bottom: 1px solid #b2a69b;
+    overflow: hidden;
+    
+}
+
+div#news div.fl > ul > li {
+    float: left;
+    margin: 4% 0
+}
+
+div#news div.fl > ul > li:after {
+    content: "|";
+    color: #b2a69b;
+}
+
+div#news div.fl > ul > li:last-child:after {
+    display: none;
+}
+
+div#news div.fl > ul > li > a {
+    color: #b2a69b;
+    padding: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+div#news div.fl > ul > li > a:hover {
+    color: #fff
+}
+
+div#news div.fl > div > ul {
+    
+    text-align: center;
+}
+
+div#news div.fl > div > ul > li {
+    width: 90%;
+    margin: 3% auto;
+}
+
+div#news div.fl > div > ul > li > a {
+    display: block;
+    padding: 2%;
+    color: #fff;
+    height: 2vw
+}
+
+div#news div#list1 ul li {
+    background-color: #52463a
+}
+
+div#news div#list2 ul li {
+    background-color: #52463a
+}
+
+div#news div#list3 ul li {
+    background-color: #52463a
+}
+
+div#news div.fr h3 {
+    margin:2%;
+    color: #b2a69b
+}
+div#news div#list1 ul li:hover{
+    background-color: rgba(82,70,58,.6);
+}
+div#news div#list2 ul li:hover{
+    background-color: rgba(82,70,58,.6);
+}
+div#news div#list3 ul li:hover{
+    background-color: rgba(82,70,58,.6);
+}
+div#news div.fr div#btnWrap {
+    top: 0;
+    right: 0;
+    margin: 2%;
+}
+
+div#news div.fr div#btnWrap button {
+    background-color: #b2a69b;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+div#news div.fr div#gallery {
+    width: 98%;
+    
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+div#news div.fr div#gallery ul {
+    width: 400%;
+    overflow: hidden;
+}
+
+div#news div.fr div#gallery ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+div#news div.fr div#gallery ul li img {
+    width: 87%;
+}
+
+/*contents*/
+div#contents span.HMtext,
+div#contents p{
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+div#contents > img{
+    margin: auto;
+    display: block;
+    width:60%;
+}
+div#contents span.HMtext{
+    font-size: 32px;
+    color: #b2a69b;
+    margin-top: 2%;
+    display: block;
+    font-family: 'Cinzel', serif;
+}
+
+div#contents p{
+    padding:3% 0;
+    line-height: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+/*sns_css*/
+div#sns {
+    width: 30%;
+    margin:5% auto;
+}
+
+div#sns ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    text-align: center;
+}
+
+div#sns ul li {
+    flex: 1;
+}
+
+div#sns ul li a {
+    color: #fff;
+    font-size: 12px;
+}
+div#sns ul li a:hover{
+    color: #b2a69b
+}
+div#sns ul li img {
+    width: 6%;
+}
+
+/*footer_css*/
+footer div ul {
+    overflow: hidden;
+}
+
+footer div ul li {
+    float: left;
+}
+
+footer div ul li a {
+    color: #fff;
+}
+
+footer div p {
+    color: #fff;
+}
+
+footer div.fl {
+    width: 70%;
+    font-size: 14px;
+}
+
+footer div.fl p {
+    margin: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer div.fl ul li {
+    margin: 15px 0 15px
+}
+
+footer div.fl ul li a {
+    padding: 15px
+}
+
+footer div.fl ul li:after {
+    content: "|";
+    color: #fff;
+    font-size: 12px;
+    padding: 10px
+}
+
+footer div.fl ul li:last-child:after {
+    display: none;
+}
+
+footer div.fr {
+    width: 30%;
+    margin-top: 30px;
+}
+
+footer div.fr div.footerBtn {
+    position: relative;
+}
+
+footer div.fr div.footerBtn button {
+    position: absolute;
+    background-color: #1e285b;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+footer div.fr div.footerBtn button#ltBtn {
+    left: 120px;
+    top: 5px
+}
+
+footer div.fr div.footerBtn button#gtBtn {
+    right: 120px;
+    top: 5px
+}
+
+footer div.fr ul {
+    
+}
+
+footer div.fr ul li {
+    width: 20%;
+    margin: 2%
+}
+
+footer div.fr ul li img {
+    width: 100%;
+}
+
+footer div.fr div.aniWrap {
+    width: 50%;
+    overflow: hidden;
+    margin: auto
+}

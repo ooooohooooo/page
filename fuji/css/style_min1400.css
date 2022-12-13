@@ -1,0 +1,9 @@
+header h1 img {
+    width: 28%;
+}
+
+div#conBwrap div#cont div#big{width:1000px;height:1000px;}
+div#conBwrap div#cont div#big div#rotate{
+    width:980px; 
+    height:980px;
+    }

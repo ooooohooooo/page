@@ -1,0 +1,44 @@
+/*quickBtn_css*/
+div#quick {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 90px;
+    background-color: #251f1d;
+    z-index: 99999
+}
+
+div#quick ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+div#quick ul li a {
+    display: block;
+    color: #fff;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+div#quick ul li:hover {
+    background-color: #1e285b
+}
+
+/*topBtn_css*/
+div#top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div#top span {
+    display: block;
+}

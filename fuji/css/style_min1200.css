@@ -1,0 +1,105 @@
+/*media_1200_css*/    
+header h1{
+    width: 17%;
+    float: left; 
+    padding-left:2%
+}
+header h1 img{width:30%;}
+article div.product{ width:150px; height:150px; border-radius:100%;position: absolute;}
+article div.product span{font-size:14px;}
+article div.product span.hr2{
+    display: block;
+    margin:10px auto;
+    width:50px;
+    height: 1px;
+    background-color: #fff;}
+article div.product a{
+    display: block;
+    margin-top: 35px;
+    font-size:10px; 
+    color: #fff;
+    }    
+    
+article div.c1{left: 20%; top: 15%}
+article div.c2{left: 44%; top: 35%}
+article div.c3{left: 32%; top: 35%}
+article div.c4{left: 20%; top: 77%}
+article div.c5{left: 44%; top: 57%}
+article div.c6{left: 70%; top: 77%}
+    
+article div img{
+    width:150px; 
+    height:150px; 
+    border-radius:100%; 
+    opacity:1;
+    } 
+div#conBwrap div#cont div#textWrap{
+   
+    top:-13%;
+ 
+}
+div#conBwrap div#cont div#textWrap h3{
+    margin-bottom: 1%;
+}
+div#conBwrap div#cont div#textWrap span#our {
+    margin-top: 0;
+}
+div#conBwrap div#cont div#big{
+    width:900px;
+    height:900px;
+}
+div#conBwrap div#cont div#big div#rotate{
+    width:850px; 
+    height:850px;
+    }
+div#conBwrap div#cont div#big div#rotate div#mini{
+    width: 100px;
+    height: 100px;
+    top:5%;
+    left:10%
+    }
+div#conBwrap div#cont div#big div#rotate div#mini2{
+    width: 150px;
+    height:150px;
+    bottom:10%;
+    right:2%;
+    } 
+div#conBwrap div#cont div#contWrap div:last-child div.w47 dl{
+    height:200px;
+    }    
+div#conBwrap div#cont div#contWrap div#contWrap2 div.w47 span#more{
+    right:12%
+    }
+div#conBwrap div#cont div#contWrap div#contWrap2:nth-child(2) div.w47 span#more{
+    right: 41%;
+    }
+div#as{height:420px;}
+div#as div.asWrap > div img{width: 100%;}
+div#as div#asCircle{
+    width: 250px; 
+    height: 250px; 
+    margin-top: -51%;
+    margin-left: 70%;
+}
+div#as div#asCircle div#asCircleWrap{
+    margin-top: 23%;
+    margin-left: 13%;
+}
+div#as div#asCircle div#asCircleWrap div#front{
+    width: 210px;
+    height: 210px;
+}
+div#as div#asCircle div#asCircleWrap div#back{
+    top: 28%;
+    left: 17%;
+    }   
+
+
+footer div#leftLogo{margin-top:7%}
+footer div#rightLogo{margin-top:6%}
+footer div#leftLogo img{width:45%;}
+footer div#rightLogo img{width:10%}
+    
+
+
+    

@@ -1,0 +1,77 @@
+header h1{
+    width: 18%;
+    float: left; 
+    padding-left:2%
+}
+header h1 img{
+    width:20%;
+}
+
+header div#wrap nav{
+    margin-bottom: 0
+}
+
+section div#secWrap span.wrap img{
+    top: 48%;
+}
+section div#secWrap span.wrap span.fontWrap{
+    font-size:18px;
+}
+article div.product a{
+    margin-top: 40px;
+}
+article div.c1{left: 20%;top: 13%; 
+    background-color:#f0c060;}
+article div.c2{left: 44%;top: 33%; 
+    background-color:#f0c060;}
+article div.c3{left: 32%;top: 33%;}
+article div.c4{left: 20%;top: 70%;}
+article div.c5{left: 44%;top: 53%;}
+article div.c6{left: 66%;top: 70%;}
+
+div#conBwrap div#cont div#textWrap{
+    top:-10%;
+}
+
+div#conBwrap div#cont div#textWrap h3{
+    font-weight:500;
+    margin-bottom: 80px
+}
+
+div#conBwrap div#cont div#textWrap span{
+    font-size:50px;
+}
+div#conBwrap div#cont div#textWrap span span.yellow{
+    font-size:60px
+}
+div#conBwrap div#cont div#big{
+    width:1400px; 
+    height:1400px; 
+    }
+
+div#conBwrap div#cont div#big div#rotate{
+    width:1350px; 
+    height:1350px;
+    animation:rotateC 35s infinite;
+    }
+
+div#conBwrap div#cont div#big div#rotate div#mini{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 2%;
+    }
+div#conBwrap div#cont div#big div#rotate div#mini2{
+    position: absolute;
+    width: 300px;
+    height:300px;
+    bottom: 3%;
+    right:0;
+    }
+div#cont div#contWrap{
+    top:12%;
+    }
+div#conBwrap div#cont div#contWrap div#contWrap2 div.w47 span#more {
+    right: 10%;
+}

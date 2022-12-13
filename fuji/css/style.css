@@ -1,0 +1,555 @@
+html, body, div, header, nav, section, article, footer, a, ul, li, ol, dl, dt, dd, span, p, h1, h2, h3, h4, h5, h6{margin: 0; padding: 0;}
+a{text-decoration: none;}
+ul, li, ol{list-style: none;}
+
+/*header_css*/
+header{}
+header div#wrap{}
+header h1{
+    width: 18%;
+    float: left; 
+    padding-left:2%
+}
+header h1 img{width:20%;}
+header nav{
+    width: 60%;
+    float: left;
+}
+header nav > ul > li{
+    width: 20%;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+header nav > ul > li > a{
+    display:block; 
+    padding-top: 30px;
+    padding-bottom:30px;
+    color: #404850; 
+    font-size:15px;
+}
+header nav > ul > li > ul{
+    position: absolute;
+    z-index: 999;
+    background-color:rgba(240,192,96,.7);
+    top:80px; 
+    width: 100%;
+    height:11vw
+}
+header nav ul > li > ul > li > a{
+    color: #fff; 
+    font-size:14px;
+    display: block;
+    padding:5% 0;
+}
+header nav ul > li:hover > ul{
+    background-color: rgba(64,72,80,.7);
+}
+header nav ul > li > ul > li:hover a{
+    background-color: rgba(240,192,96,.7);
+}
+header div#shop{
+    width: 20%;
+    float: left;
+    position: relative;
+}
+header div#shop a{
+    position: absolute;
+    right:0;
+    padding-right:30px;
+    padding-top: 30px; 
+    color: #404850;
+}
+
+
+
+/*section_css*/
+section{
+    clear: both;
+    position: relative; 
+    margin-bottom:9%; 
+    height: 50vw;
+}
+section div#secWrap{
+    position: relative; 
+    text-align: center;
+}
+section div#secWrap span.wrap{
+    position: absolute; 
+    display: block;
+    padding-top: 16%;
+    width: 100%;
+    color: #fff; font-size: 20px;
+}
+section div#secWrap span.wrap img{
+    width: 45%;
+    display: block;
+    margin: auto
+}
+section div#secWrap span.wrap span.fontWrap{
+    font-size:12px;
+}
+section div#secWrap img{
+    width:100%; 
+    position: absolute; 
+}
+section div#secWrap img:first-child{
+    top: 0; left:0;
+}
+section div#secWrap img:nth-child(2){
+    top: 0;left:0; 
+    animation: section 10s infinite;
+}
+section div#secWrap span div{
+    background-color:#f0c060; 
+    width: 100px; 
+    margin:30px auto; 
+    padding:2px 0 5px 0; 
+    border-radius:5px; 
+    opacity:0.8; 
+    cursor: pointer
+}
+section div#secWrap span div:hover{opacity: 1}
+section div#secWrap span div a{color: #fff;}
+
+@keyframes section{
+    0%{opacity:1}
+    50%{opacity: 0}
+    100%{opacity: 1}
+}
+
+/*article_css*/
+article{
+    position: relative; 
+    background-image: url(../img/article.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    height:55vw; 
+}
+article span.hr{
+    display: block;
+    border-bottom:1px solid #404850;
+    width: 35px;
+    padding-top: 30px;
+    margin:5px auto;
+}
+
+article h3{font-weight:500;}
+article span{font-size: 12px;} 
+
+article div.product{ 
+    position: absolute; 
+    background-color: #666; 
+    width:200px; 
+    height:200px; 
+    border-radius:100%; 
+    opacity:.85;
+    transition: all .5s ease;
+}
+article div.product span{font-size:18px;}
+article div.product span.hr2{
+    display: block;
+    margin:10px auto;
+    width:50px;
+    height: 1px;
+    background-color: #fff;
+}
+article div.product a{
+    display: block;
+    margin-top: 35px;
+    font-size:14px; 
+    color: #fff;
+}
+article div.c1{left: 20%;top: 13%; 
+    background-color:#f0c060;}
+article div.c2{left: 44%;top: 33%; 
+    background-color:#f0c060;}
+article div.c3{left: 32%;top: 33%;}
+article div.c4{left: 20%;top: 70%;}
+article div.c5{left: 44%;top: 53%;}
+article div.c6{left: 66%;top: 70%;}
+
+article div img{
+    width:200px; 
+    height:200px; 
+    border-radius:100%; 
+    opacity:1;
+}
+
+
+/*div#cont_css*/
+div#conBwrap{
+    background-image: url(../img/conbg.jpg); 
+    background-size:cover
+}
+div#conBwrap div#cont{
+    position: relative; 
+    width:90%; 
+    height:90%; 
+    margin: auto;
+}
+
+div#conBwrap div#cont div#textWrap{
+    position: absolute; 
+    text-align: center;
+    width: 100%; 
+    top:-10%;
+    z-index: 5;
+}
+div#conBwrap div#cont div#textWrap span.hr{
+    display: block;
+    border-bottom:1px solid #404850;
+    width: 35px;
+    padding-top:30px;
+    margin:5px auto;
+}
+div#conBwrap div#cont div#textWrap h3{color: #404850;
+    font-weight:500;
+    margin-bottom: 80px
+}
+div#conBwrap div#cont div#textWrap span#our{
+    display: block;
+    margin-top:5%
+}
+div#conBwrap div#cont div#textWrap span{
+    color: #404850;
+    font-size:50px;
+}
+div#conBwrap div#cont div#textWrap span span.yellow{
+    color:#f0c060;
+    font-size:60px
+}
+div#conBwrap div#cont div#big{
+    position: relative;
+    background-color: #CCC; 
+    width:1500px; 
+    height:1500px; 
+    border-radius: 100%; 
+    margin:15% auto;
+}
+
+div#conBwrap div#cont div#big div#rotate{
+    width:1400px; 
+    height:1400px;
+    animation:rotateC 35s infinite;
+}
+
+div#conBwrap div#cont div#big div#rotate div#mini{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #999;
+    top: 10%;
+    left: 2%;
+}
+div#conBwrap div#cont div#big div#rotate div#mini2{
+    position: absolute;
+    width: 300px;
+    height:300px;
+    border-radius: 100%;
+    background-color: #999;
+    bottom: 3%;
+    right:0;
+}
+
+@keyframes rotateC{
+    0%{transform: rotate(0)}
+    100%{transform: rotate(360deg)}
+}
+
+
+
+div#cont div#contWrap{
+    position: absolute; 
+    top:7%;
+}
+div#cont div#contWrap div#contWrap2{
+    margin-bottom:15px;
+}
+div#cont div#contWrap div#contWrap2 span{
+    color:#404850;
+    margin-right:10px;
+    line-height: 2.5;
+}
+div#cont div#contWrap div#contWrap2 div.w47{
+    position: relative;
+    display: inline-block;
+    width: 47%;
+}
+div#cont div#contWrap div#contWrap2 div dl{
+    overflow: hidden;
+    font-size:12px;
+    color: #fff;
+}
+div#cont div#contWrap div#contWrap2 div dl dt{
+    font-size: 18px;
+    margin-bottom:10px;
+}
+div#cont div#contWrap div#contWrap2 div dl dd{
+    margin-bottom: 20px
+}
+div#cont div#contWrap div:first-child div.w47 dl{
+    height: 160px;
+    padding-right:5%;
+    padding-left: 38%;
+}
+div#cont div#contWrap div:nth-child(2) div.w47 dl{
+    height: 200px;
+    padding-right:38%;
+    padding-left: 5%;
+}
+div#cont div#contWrap div:last-child div.w47 dl{
+    height: 250px;
+    padding-right:5%;
+    padding-left: 38%;
+}
+div#cont div#contWrap div#contWrap2 div.w47 div#bt{
+    right: 5%;
+    background-color: #f0c060;
+    border-radius:100%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+div#cont div#contWrap div#contWrap2:nth-child(2) div.w47 div#bt{
+    right: 25%;
+}
+div#cont div#contWrap div#contWrap2:nth-child(2) div.w47 span#more{
+    right: 30%;
+}
+div#cont div#contWrap div#contWrap2 div.w47 span#more{
+    position: absolute;
+    right:10%;
+}
+
+div#cont div#contWrap div#contWrap2 div.w47 span,
+div#cont div#contWrap div#contWrap2 div.w47 div{
+    position: absolute;
+    right:0;
+    bottom:15px;
+}
+div#cont div#contWrap div#contWrap2 div.w52{
+    display: inline-block;
+    width: 52%;
+}
+div#cont div#contWrap div#contWrap2 div.w52 div{
+    display:inline-block;
+    width: 49%;
+    box-shadow:inset -20px 1px 20px 0px #999;
+}
+div#cont div#contWrap div#contWrap2 div.w52 div img{
+    width:100%;
+}
+
+
+div#cont div#contWrap div#contWrap2 div.w47 div#bt a span{
+    width:15px;
+    height:1px;
+    background-color: #fff;
+    opacity: 0;
+}
+div#cont div#contWrap div#contWrap2 div.w47 div#bt a{
+    display: block;
+    padding-top:17px;
+}
+
+div#cont div#contWrap div#contWrap2 div.w47 div#bt:hover a span#yLine{
+    opacity: 1
+}
+div#cont div#contWrap div#contWrap2 div.w47 div#bt:hover a span#xLine{
+    opacity: 1;
+    transform: rotate(90deg); 
+    transition: all .35s;
+}
+
+
+
+
+/*div#as_css*/
+div#as{
+    background-color:#f1f1f4; 
+    height: 450px;
+    overflow: hidden;
+    background-image: url(../img/asimg.png);
+    background-size:100%
+}
+    
+div#as div.asWrap{
+    width: 65%; 
+    margin: auto
+}
+div#as div.asWrap > div{
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+div#as div.asWrap > div img{width:80%;}
+div#as div.asWrap > div span#open{
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 100%;
+    color: #f0c060;
+}
+
+div#as div#asCircle{
+    width: 250px; 
+    height: 250px;
+}
+
+div#as div#asCircle div#asCircleWrap div#front{
+    position: relative;
+    background-color:#fff; 
+    width: 250px; 
+    height: 250px; 
+    border-radius: 100%; 
+    box-shadow:5px 5px 10px #ccc;
+    cursor: pointer;
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    z-index: 999;
+    backface-visibility: hidden;
+    transform-style: preserve-3d; 
+    transition: all .5s ease-out 0s;
+}
+
+div#as div#asCircle div#asCircleWrap div#front.rot{
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg); 
+    display:none;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+div#as div#asCircle div#asCircleWrap div#back.rot{
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg)
+}
+div#as div#asCircle div#asCircleWrap img{width:30%;}
+div#as div#asCircle span#hr3{
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #404850;
+    margin:10px auto;
+}
+
+div#as div#asCircle a{
+    display: block;
+    font-size:36px;
+    color: #404850;
+}
+
+div#as div#asCircle div#asCircleWrap div#back{
+    z-index: 5;
+    box-shadow: 5px 5px 10px #ccc;
+    border-radius: 50%;
+    background-color: #f0c060;
+    position: absolute;
+    top:-10px;
+    left:50px;
+    width: 180px;
+    height: 180px;
+    -ms-transform: rotateY(180deg); 
+    transform: rotateY(180deg);
+    backface-visibility: hidden;  
+    transform-style: preserve-3d; 
+    transition: all .5s ease-out 0s;
+}
+div#as div#asCircle div#asCircleWrap div#back a{
+    font-size:12px;
+    margin-top:40%;
+}
+div#as div#asCircle div#asCircleWrap div#back a span{
+    display: block;
+    font-size:20px;
+}
+
+/*footer_css*/
+footer{
+    background-color:#64646b;
+    overflow: hidden;
+    padding-bottom:1%;
+}
+footer div#leftLogo,
+footer div#rightLogo{
+    width: 10%; 
+    float: left; 
+    text-align: center; 
+    margin-top: 4%
+}
+footer div#leftLogo{margin-top:5%}
+footer div#rightLogo{margin-top:4%}
+footer div#snsWrap{
+    width: 80%; 
+    float: left; 
+    text-align: center;
+}
+footer div#snsWrap div.sns ul{margin-top: 20px}
+footer div#snsWrap div.sns ul li{
+    display: inline-block; 
+    width: 35px;
+    height: 35px;
+    margin: 10px 2.5px;
+    cursor: pointer;
+}
+footer div#snsWrap div.sns ul li img{width: 100%;}
+
+footer div#snsWrap div.contact{margin: 20px}
+footer div#snsWrap div.contact a{
+     overflow:hidden;
+	 position:relative;
+	 display:block;
+     width:166px;
+     height:38px;
+     border:1px solid #f0c060;
+     margin:auto;
+     line-height:40px;
+     padding:5px 30px
+}
+footer div#snsWrap div.contact a span.hover{
+     position:absolute;
+	 top:0;
+	 left:0;
+	 display:block;
+	 width:100%;
+	 height:100%;
+	 background:#f0c060;
+	 border:1px solid transparent;
+	 transform:scale(1,0);
+	 transform-origin:center top;
+	 transition:all .2s ease-out;
+}
+footer div#snsWrap div.contact a span{
+     color: #f0c060;
+     position:relative;
+	 transition:color .25s ease-out;
+}
+footer div#snsWrap div.contact a:hover span{color:#fff}
+footer div#snsWrap div.contact a:hover span.hover{
+    transform:scale(1,1);
+}
+footer div#snsWrap div.info ul{margin-bottom: 5px}
+footer div#snsWrap div.info ul li{display: inline-block;}
+footer div#snsWrap div.info ul li a{
+    color: #fff; 
+    font-size:14px; 
+    padding:20px
+}
+footer div#snsWrap div.info ul li a:hover{
+     text-decoration: underline;
+}
+footer div#snsWrap span{color: #fff; font-size:14px;}
+
+footer div#snsWrap div.info ul li:after{content: "·"; color: #fff;}
+footer div#snsWrap div.info ul li:last-child:after{display: none;}
+
+
+
+   
+    
+
+ 
