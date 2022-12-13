@@ -1,0 +1,461 @@
+body {
+    background-color: #ffdcb2;
+}
+
+
+/*header css*/
+
+header {
+    height: 20vw;
+}
+
+header h1 {
+    float: left;
+    margin: 3%
+}
+
+header h1 img {
+    width: 65%;
+}
+
+header #login {
+    float: right;
+    margin-top: 7%;
+    margin-right: 3%
+}
+
+header #login ul {}
+
+header #login ul li {
+    float: left;
+}
+
+header #login ul li a {
+    color: #121212;
+    font-weight: bold;
+    font-size: 15px;
+}
+header #login ul li a:hover{
+    color: #333
+}
+
+header #login ul li a:after {
+    content: "/";
+    padding: 0 5px
+}
+
+header #login ul li:last-child a:after {
+    display: none;
+}
+
+
+
+/*main css*/
+
+#main {
+    background-color: #f07951;
+
+}
+
+#main nav {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    top: 70px;
+    text-align: center;
+}
+
+#main nav #name {
+    color: #021ce6;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10%;
+    display: block;
+}
+
+#main nav ul > li:hover > a {
+    color: #021ce6
+}
+
+#main nav ul li a {
+    color: #121212;
+    font-weight: bold;
+    display: block;
+    padding: 2%
+}
+#mainImg {
+    display: none;
+}
+#main h2 {
+    display: none;
+}
+
+#main nav ul > li > ul {
+    display: none;
+
+}
+
+#main nav ul > li > ul > li > a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    padding: 2%
+}
+
+
+#main #sectionWrap .sectionText {
+    display: none;
+}
+
+#main #sectionWrap img {
+    position: relative;
+    top: 170px;
+    width: 100%;
+}
+
+
+/*article1 css*/
+
+#article1 {
+    position: relative;
+    top: 200px;
+}
+
+#article1 #articleWrap1 {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#article1 #articleWrap1 h3 {
+    color: #fff
+}
+
+.new {
+    margin-bottom: 5%;
+    display: block;
+    color: #fff
+}
+
+.boxWrap {
+    overflow: hidden;
+    height: 57vw;
+}
+
+.first img {
+    float: left;
+    width: 100%;
+
+}
+
+.last img {
+    float: right;
+    width: 100%;
+}
+
+#rightBox {
+    float: right;
+    height: 60vw;
+    background-color: #a69356;
+    width: 50%;
+}
+
+.boxText1 {
+    font-size: 14px;
+    margin-top: 60%;
+    display: block;
+}
+
+.boxText2 {
+    font-size: 14px;
+    margin-top: 35%;
+    display: block;
+    margin-bottom: 5%
+}
+
+.overlayWrap p {
+    font-size: 12px;
+}
+
+
+#leftBox {
+    float: left;
+    height: 60vw;
+    background-color: #92a5ae;
+    width: 50%;
+}
+
+.overlayWrap {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    z-index: 999;
+}
+
+.oLeft {
+    left: 0;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    
+}
+.overlay a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 50%
+}
+
+
+.overlayWrap:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+
+
+/*article2 css*/
+.neaterBag{
+    display: none;
+}
+#article2 {
+    position: relative;
+    top: 180px;
+}
+
+#article2 #backColor {
+    width: 100%;
+    height: 60vw;
+    background-color: #d4ab55;
+}
+
+#article2 #mobileImg {
+    width: 85%;
+    margin: auto
+}
+
+#article2 #mobileImg img {
+    width: 100%;
+    position: relative;
+    bottom: -100px;
+}
+
+#article2 #mobileImg img:hover {
+    filter: grayscale(100%)
+}
+
+#article2 #articleWrap2 #topBox {
+    display: none
+}
+
+#article2 #articleWrap2 #bottomBox {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: -100px
+}
+
+#article2 #articleWrap2 #bottomBox img {
+    width: 100%;
+    
+}
+
+#article2 #articleWrap2 #bottomBox img:hover {
+    filter: grayscale(100%)
+}
+
+/*item css*/
+
+.hr {
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    top: 180px;
+    position: relative;
+    margin-top: 8%
+}
+
+
+#item {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: 220px;
+}
+
+#item h4 {
+    text-align: center;
+    color: #121212;
+    margin-bottom: 10%;
+    font-weight: 500
+}
+
+#item figure {
+    width: 46%;
+    margin-right: 3%;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 15%;
+}
+.itemImg{
+    position: relative;
+    height: 37vw;
+    overflow: hidden;
+    margin-bottom: 5%
+}
+
+#item .itemImg img {
+    width: 100%;
+    
+}
+
+.hover {
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figure:hover .hover {
+    opacity: 1;
+}
+
+.borderBox{
+    display: block;
+    border: 1px solid #fff;
+    width: 85%;
+    height: 85%;
+    margin-top: 6.5%;
+    margin-left: 6.5%
+}
+
+#item figure figcaption span {
+    font-size: 11px;
+    color: #121212
+}
+
+#item figure figcaption .itemName {
+    display: block;
+}
+
+
+
+
+
+
+/*showroom css*/
+
+#showroom {
+    position: relative;
+    top: 250px;
+    width: 85%;
+    margin: auto;
+}
+#showroomText{
+    display: block;
+    font-size: 18px;
+    color: #a42121;
+    text-align: center;
+    margin-bottom: 5%
+}
+#showroom img {
+    width: 100%;
+}
+
+#showroom #slider {
+    display: none;
+}
+
+#add{
+    text-align: right;
+    font-weight: 600;
+    display: block;
+}
+
+
+
+
+
+
+/*sns css*/
+#sns {
+    position: relative;
+    top: 300px;
+    width: 85%;
+    margin: auto;
+}
+
+#sns #snsText {
+    color: #a42121;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5%;
+    display: block;
+    text-align: center;
+}
+
+#sns #instafeed {
+    background-color: #fff;
+    padding: 1%
+}
+
+#sns #instafeed img {
+    width: 32%;
+    margin-left: 1%
+}
+
+/*footer css*/
+
+footer {
+    padding-bottom: 8%;
+    top: 372px;
+    position: relative;
+    width: 85%;
+    margin: auto
+}
+
+footer #info {
+    overflow: hidden;
+}
+
+footer #info ul li {
+    float: left;
+    width: 32%;
+}
+
+footer #info ul li a {
+    color: #121212;
+    font-size: 12px
+}
+footer #info ul li a:hover{
+    color: #a42121
+}
+footer p {
+    text-align: center;
+    font-size: 14px
+}

@@ -1,0 +1,133 @@
+@media screen and (min-width:1023px) {
+    header {
+        height: 10vw;
+    }
+
+    header h1 {
+        margin: 2%;
+    }
+
+    header #login {
+        margin-top: 2%;
+    }
+
+    #main nav {
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    #mainImg {
+        width: 30%;
+        margin-right: 20%;
+
+    }
+
+    #main nav #name {
+        font-size: 50px;
+    }
+
+    #main nav > ul > li > a {
+        font-size: 20px
+    }
+
+    #main #sectionWrap .sectionText {
+        font-size: 28px
+    }
+
+    #article1 #articleWrap1 {
+        width: 60%;
+    }
+
+    #item {
+        width: 65%;
+    }
+
+    .boxWrap {
+        height: 40vw
+    }
+
+    .boxText1 {
+        font-size: 24px
+    }
+
+    .boxText2 {
+        font-size: 24px
+    }
+
+    .overlayWrap p {
+        font-size: 20px
+    }
+
+    #article2 #articleWrap2 #topBox {
+        width: 60%;
+        top: 250px;
+    }
+
+    #backColor2 {
+        height: 500px;
+    }
+
+    #article2 #articleWrap2 #bottomBox {
+        width: 60%;
+        top: -200px;
+    }
+
+    #item figure {
+        width: 20%;
+        margin-bottom: 10%;
+        margin-right: 5.5%
+    }
+
+    #item figure:nth-child(4) {
+        margin-right: 0;
+    }
+
+    #item figure:last-child {
+        margin-right: 0;
+    }
+
+    .itemImg {
+        height: 13vw;
+        width: 100%;
+
+    }
+
+    #showroom {
+        margin: auto;
+        width: 75%;
+    }
+
+    #showroom #showroomIwrap {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    #showroomText {
+        font-size: 24px;
+        margin-top: 5%
+    }
+
+    #showroom #slider {
+        display: block;
+
+    }
+
+    #sns #instafeed img {
+        width: 15.5%;
+    }
+
+    footer {
+        padding-bottom: 2%;
+    }
+
+    footer #info ul li {
+
+        margin-bottom: .5%;
+
+    }
+
+
+
+    /*media end*/
+}

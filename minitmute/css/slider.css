@@ -1,0 +1,30 @@
+/*plug-in 수정부분*/
+/*bxslider 수정*/
+.bx-wrapper {
+    border: 0 !important
+}
+
+
+.bx-wrapper img {
+    width: 100% !important;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    display: none !important;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    display: none !important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background-color: #fff !important;
+}
+
+.bx-wrapper .bx-prev {
+    left: -5% !important;
+}
+
+.bx-wrapper .bx-next {
+    right: -5% !important;
+}
