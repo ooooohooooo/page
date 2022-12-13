@@ -1,0 +1,289 @@
+*{padding: 0;margin: 0;}
+ul, li, ol{list-style: none}
+a{text-decoration: none}
+
+
+
+/*header_css*/
+div#top{position: fixed; bottom: 0; right: 0; margin:20px}
+header{}
+header h1{text-align: center; margin-top:20px}
+header h1 img{width: 50%; }
+header div#menu{background-color: black; color: white; width: 100px; padding: 15px; margin: auto; text-align: center}
+header div#menu img{margin-left: 10px}
+header nav{margin-top:15px; display: none;}
+header nav ul{text-align: center}
+header nav ul li{margin-bottom:5px}
+header div#gnb{text-align: center; margin:30px 0 70px 0;}
+
+/*section_css*/
+section{padding:0 20px}
+section p{font-size: 25px; color: #999; font-family: "Times New Roman"; letter-spacing:1px}
+section p span.bold{font-weight: 700; font-size: 25px; color: #999;}
+section p span{font-size: 17px;color: #333}
+section p span span{font-weight:700;}
+
+.actionBtn5 {
+	 overflow:hidden;
+	 position:relative;
+	 display:block;
+	 width:110px;
+	 height:50px;
+    margin-top:30px;
+	 border:3px solid #000;
+	 text-align:center;
+	 line-height:50px;
+	 color:#000;
+	 font-size:14px;
+	 text-decoration:none;
+	 text-transform:uppercase;
+}
+.actionBtn5 span {
+	 display:block;
+}
+.actionBtn5 .hover:after {
+	 position:absolute;
+	 top:0;
+	 left:50%;
+	 opacity:0;
+	display:block;
+	 content:"";
+	 width:0%;
+	 height:50px;
+	 background-color:#000;
+	 border:1px solid transparent;
+	transform:skewX(-40deg);
+	-webkit-transform:skewX(-40deg);
+	-moz-transform:skewX(-40deg);
+	transform-origin:center center;
+	 -webkit-transform-origin:center center;
+	 -ms-transform-origin:center center;
+	 -moz-transform-origin:center center;
+	 transition:all .35s, opacity .4s;
+	 -webkit-transition:all .35s, opacity .4s;
+	 -moz-transition:all .35s, opacity .4s;
+}
+.actionBtn5 .hover .txt {
+	z-index:10;
+	position:relative;
+	 color:#000;
+	transition:color .35s;
+	-webkit-transition:color .35s;
+	-moz-transition:color .35s;
+}
+.actionBtn5:hover .hover .txt {
+	 color:#fff;
+}
+.actionBtn5 .hover:hover:after {
+	 opacity:1;
+	 left:3%;
+	 width:95%;
+	 transform:skewX(-40deg);
+	 -webkit-transform:skewX(-40deg);
+	 -moz-transform:skewX(-40deg);
+}
+
+section div{margin-top: 80px}
+section div img{width: 99%; display: block; margin: auto; margin-bottom: 20px}
+
+/*div#imgWrap_css*/
+div#imgWrap{padding:1%}
+div#imgWrap ul{text-align: center; overflow: hidden;}
+div#imgWrap ul li{width: 47%; height: 150px; float: left; overflow: hidden; margin-left:5px; margin-bottom: 5px}
+div#imgWrap ul li img{width: 100%; height: 100%; transition: all 0.5s;}
+
+div#imgWrap ul li:hover img {transform: scale(1.1);}
+
+/*div#aboutWrap_css*/
+div#aboutWrap{text-align: center}
+div#aboutWrap p{font-size:17px; margin:40px 0}
+div#aboutWrap p span{font-size:40px; font-family: "Times New Roman"}
+
+.actionBtn3 {
+	display:block;
+	width:140px;
+	 height:60px;
+	margin:30px auto;
+	text-align:center;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+}
+.actionBtn3 .front,.actionBtn3 .back {
+	position:absolute;
+	display:block;
+	width:140px;
+	 height:60px;
+	 border:3px solid #000;
+	line-height:60px;
+	transition:all .5s;
+	-webkit-transition:-webkit-transform .5s;
+	-moz-transition:-moz-transform .5s;
+	color:#000;
+	 font-size:15px;
+    font-weight:bold;
+	 text-decoration:none;
+}
+.actionBtn3 .front {
+	background-color:#fff;
+	transform:translateZ(30px);
+	-webkit-transform:translateZ(30px);
+	-moz-transform:translateZ(30px);
+}
+.actionBtn3 .back {
+	background-color:#000;
+	color:#fff;
+	transform:rotateX(-90deg) translateZ(30px);
+	-webkit-transform:rotateX(-90deg) translateZ(30px);
+	-moz-transform:rotateX(-90deg) translateZ(30px);
+}
+.actionBtn3:hover {
+	transform:rotateX(90deg);
+	-webkit-transform:rotateX(90deg);
+	-moz-transform:rotateX(90deg);
+}
+div#aboutWrap img{width: 90%;}
+
+/*div#ourNews*/
+div#ourNews{padding:0 10px;}
+div#ourNews h2{font-size:40px; margin:20px 0; font-family: "Times New Roman"}
+div#ourNews p{display: block; margin-bottom:40px}
+div#ourNews p span{font-family: "Times New Roman"}
+div#ourNews p span span.bold{font-weight: 700}
+div#ourNews figure{}
+div#ourNews figure img{display:block;
+	 width:100%;
+	 height:100%;}
+
+div#ourNews figure .actionImg2{width: 100%;height: 100%; overflow: hidden; position: relative; margin: auto;}
+
+ div#ourNews figure .actionImg2 .hover{
+	 z-index:20;
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 background-color:rgba(0,0,0,0.5);
+	 width:100%;
+	 height:100%;
+	 color:#efefef;
+	 text-align:center;
+	 box-sizing:border-box;
+	 opacity:0;
+	 transition:opacity .5s ease-out;
+	 -webkit-transition:opacity .5s ease-out;
+	 -moz-transition:opacity .2s ease-out;
+}
+div#ourNews figure .actionImg2:hover .hover{opacity:1;}
+
+div#ourNews figure figcaption{padding-bottom:20px}
+div#ourNews figure figcaption h3,
+div#ourNews figure figcaption p{font-size: 12px; display: block;
+margin:20px 0;}
+div#ourNews figure figcaption p{color: #999;}
+
+/*div#contact*/
+div#contact{background-image: url(../images/rb-03.jpg);height:110vw;
+background-repeat: no-repeat; background-size: cover}
+div#contact div.textWrap{color: white; text-align: center; padding-top:30%}
+div#contact div.textWrap h4{font-size: 35px; padding-bottom:10px;
+font-family: "Times New Roman"}
+div#contact div.textWrap p{}
+
+.actionBtn2 {
+	 position:relative;
+	 display:block;
+	 width:130px;
+	 height:60px;
+	 margin:30px auto;
+	 line-height:65px;
+	 color:#fff;
+	 text-align: center;
+	 font-size:15px;
+	 text-decoration:none;
+}
+.actionBtn2 .hover {
+	 position:absolute;
+	 z-index:10;
+	 top:0;
+	 left:0;
+	 display:block;
+	 border:3px solid #fff;
+	 width:100%;
+	 height:100%;
+	transition:transform .25s ease-out;
+	-webkit-transition:-webkit-transform .25s ease-out;
+	-moz-transition:-moz-transform .25s ease-out;
+}
+.actionBtn2:hover .hover {
+	transform:rotateX(180deg);
+	-webkit-transform:rotateX(180deg);
+	-moz-transform:rotateX(180deg);
+}
+
+/*footer_css*/
+footer{text-align: center; padding-bottom:20px}
+footer dl{font-size: 12px; margin:20px 0}
+footer dl dt{font-weight: 700}
+footer dl dd span{display: inline-block; margin-right:15px }
+
+ @media screen and (min-width:481px) and (max-width:1023px) {
+     header #menu{display: none;}
+     header nav{display:block;width: 80%; margin: auto}
+     header nav ul{overflow: hidden;}
+     header nav ul li{float: left; width: 25%;}
+     
+     section{overflow: hidden;}
+     section div#wrap{width: 40%; float: left; padding-top:10%;}
+     section div{width: 60%; float: right; margin:0}
+     
+     div#imgWrap ul li{width:32%; height:100%; margin-left: 5px;}
+     
+     div#aboutWrap img{width: 100%;}
+     
+     div#ourNews{overflow: hidden;}
+     div#ourNews figure{width: 48%; float: left; margin-left:  5px}
+     
+     div#contact{ height: 55vw;}
+     div#contact div.textWrap{padding-top: 20%;}
+     
+     footer dl{float: left; width: 25%; text-align: left; margin-left: 20px}
+        }
+
+ @media screen and (min-width:1024px) {
+     header h1,
+     header nav,
+     header div#gnb{margin: 0;}
+     
+     header{width: 80%; margin: auto; overflow: hidden;
+     padding-top:40px}
+     header h1{width: 40%; float: left;}
+     header div#menu{display: none;}
+     header nav{display: block; width:40%; overflow: hidden; float: left;}
+     header nav ul{display: flex;}
+     header nav ul li{float: left; flex: 1;}
+     header div#gnb{width: 20%;float:right;}
+     
+     section{width: 80%; overflow: hidden; margin: auto}
+     section div#wrap{width: 50%; float: left; padding-top:80px;}
+     section div{width: 50%; float: right; margin-top: 35px;}
+     
+     div#imgWrap{width: 80%; margin: auto}
+     div#imgWrap ul li{width: 24%; height: 100%;}
+     
+     div#aboutWrap{width: 80%;margin: auto}
+     div#aboutWrap img{width: 100%;}
+     
+     div#ourNews{width: 80%; margin: auto; overflow: hidden;}
+     div#ourNews figure{width: 32%; float: left; margin-left:10px}
+
+     div#contact{height: 30vw;} 
+     div#contact div.textWrap{padding-top:8%;}
+     
+     footer{width: 80%;margin: auto}
+     footer dl{float: left; width: 30%; text-align: left; margin:30px 0;}
+     
+        }
+
+
+

@@ -1,0 +1,5 @@
+tablet
+min-width:481px/max-width:1023px
+
+smartphone
+min-width:320px/max-width:480px
