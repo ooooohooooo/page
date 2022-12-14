@@ -34,6 +34,40 @@ a:hover{
     color: rgb(234, 89, 89);
 }
 
+@media (max-width: 767px){
+    /*모바일*/
+    .flex-container {
+        display: block;
+        width: 90%;
+
+    }
+    .flex-item{
+        width: 80%;
+        margin-left: 16%;
+        margin-bottom: 15%;
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*테블릿 세로*/
+    .flex-container {  
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .flex-item{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        font-size: 20px;
+        
+    }
+
+}
+
 .flex-container{
     display: flex;
     flex-wrap: wrap;
@@ -68,39 +102,7 @@ a:hover{
     max-width: 700px;
 }
 
-@media (max-width: 767px){
-    /*모바일*/
-    .flex-container {
-        display: block;
-        width: 90%;
 
-    }
-    .flex-item{
-        width: 80%;
-        margin-left: 16%;
-        margin-bottom: 15%;
-        font-size: 20px;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    /*테블릿 세로*/
-    .flex-container {  
-        width: 90%;
-        margin-left: 5%;
-    }
-
-    .flex-item{
-        width: 40%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
-        font-size: 20px;
-        
-    }
-
-}
 
 
 .info p{
