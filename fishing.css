@@ -1,0 +1,18 @@
+div{
+    display: block;
+    margin: auto;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.wrap .imgbox{
+    width: 60%;
+    
+}
+
+.wrap .imgbox img{
+    width: 100%;
+    vertical-align: top;
+}
